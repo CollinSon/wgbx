@@ -1,27 +1,17 @@
-# Laravel PHP Framework
+# 广东医科大学学生网络故障保修项目(已废弃)
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+## 项目技术栈
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
+​	后端:laravel5.2
 
-Laravel is accessible, yet powerful, providing tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+​	前端:bootstrap3
 
-## Official Documentation
+## 项目感言:
 
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
+​	学生时代由师兄做的一个项目,我负责师兄毕业后项目的维护.让广东医的学生从不得不使用难用不方便的内网报修项目中解脱出来.
 
-## Contributing
+​	具体实现思路是在学校内网挂一台服务器,启动定时任务,在每天的一个固定时间去取出外网服务器的报修信息,并且用curl的方式发送到内网报修的接口中.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
+​	在师兄毕业后这个项目短暂的停用了一会,因为当时我确实没有技术力量去维护,过了一段时间后我和各方面沟通好(主要是和老师沟通内网服务器的问题),并且有一定的技术实力了,这个项目在我当网络管理员的时候又重新恢复了活力,给学生们带来了方便的报修.
 
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+​	最后这个项目还是死了,主要是因为下一届的学生网管没有维护的能力,这确实是很可惜的事情.
